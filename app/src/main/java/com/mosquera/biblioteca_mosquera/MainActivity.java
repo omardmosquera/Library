@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            startActivity(new Intent(MainActivity.this,Home.class));
+            startActivity(new Intent(MainActivity.this,navigation_home.class));
         }
     }
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(task.isSuccessful()){
                     Toast.makeText(getApplicationContext(), "Has iniciado sesión correctamente", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this,Home.class));
+                    startActivity(new Intent(MainActivity.this,navigation_home.class));
 
                 }else{
                     layoutBlock.setVisibility(view.INVISIBLE);
