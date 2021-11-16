@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1046650311378",
+    "firebase_url": "https://biblioteca-mosquera-default-rtdb.firebaseio.com",
+    "project_id": "biblioteca-mosquera",
+    "storage_bucket": "biblioteca-mosquera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046650311378:android:edff3964b98b4fe313130b",
+        "android_client_info": {
+          "package_name": "com.example.biblioteca_mosquera2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3NrzxQM4meO1-Wal63H7QtW34oM5pjJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046650311378:android:ab781665516c9fdc13130b",
+        "android_client_info": {
+          "package_name": "com.example.parcial30"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3NrzxQM4meO1-Wal63H7QtW34oM5pjJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046650311378:android:7d85f8851992f92b13130b",
+        "android_client_info": {
+          "package_name": "com.mosquera.biblioteca_mosquera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3NrzxQM4meO1-Wal63H7QtW34oM5pjJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046650311378-smgauocvajuclh6nbu9j2bsaquudqsu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
