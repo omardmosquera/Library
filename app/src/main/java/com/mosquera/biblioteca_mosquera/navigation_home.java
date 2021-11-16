@@ -16,6 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.mosquera.biblioteca_mosquera.databinding.ActivityNavigationHomeBinding;
+import com.mosquera.biblioteca_mosquera.ui.gallery.GalleryFragment;
 
 public class navigation_home extends AppCompatActivity {
 
@@ -56,6 +57,7 @@ public class navigation_home extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 
 
 }

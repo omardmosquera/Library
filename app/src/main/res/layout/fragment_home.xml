@@ -19,10 +19,11 @@
             android:layout_marginLeft="3dp"
             android:fontFamily="sans-serif-medium"
             android:text="Hola"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            />
 
         <TextView
-            android:id="@+id/name_home"
+            android:id="@+id/Ebooks_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="-10dp"
@@ -30,6 +31,20 @@
             android:text="Nombre"
             android:textColor="@color/purple_700"
             android:textSize="34dp" />
+
+        <Button
+            android:id="@+id/logOut"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="0dp"
+            android:padding="0dp"
+            android:shadowColor="@color/white"
+            android:text="Cerrar sesión"
+            android:textAlignment="viewStart"
+            android:textColor="@color/purple_700" />
 
         <TextView
             android:id="@+id/textView6"
@@ -42,6 +57,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
