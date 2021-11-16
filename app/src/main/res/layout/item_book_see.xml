@@ -10,42 +10,36 @@
         android:elevation="8dp"
         android:orientation="vertical"
         android:padding="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/title_book"
+            android:id="@+id/title_book_see"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="title"
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/author_book"
+            android:id="@+id/author_book_see"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="autor" />
 
         <TextView
-            android:id="@+id/id_book"
+            android:id="@+id/id_book_see"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/description_book"
+            android:id="@+id/description_book_see"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="description" />
 
-        <Button
-            android:id="@+id/button_add"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Añadir" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
